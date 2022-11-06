@@ -11,3 +11,5 @@
 **Llihavoitu teksti**  tuplatähdillä tai tupla-alaviivoilla,
  _kursivoitu_ tähdillä tai alaviivoilla ja
 ***lihavoidulla kursiivilla*** kolmella tähdellä.
+
+Tarkoitus pistää paikallinen ja etärepositorio epäsynkkaan.
