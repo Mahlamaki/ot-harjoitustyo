@@ -8,6 +8,6 @@
 
 [komentorivi.txt](https://github.com/Mahlamaki/ot-harjoitustyo/blob/master/laskarit/viikko1/komentorivi.txt)
 
-**Llihavoitu teksti** "**  **" tai "__ __" 
- _kursivoitu_ "* *" tai "_ _"
-***lihavoidulla kursiivilla*** "*** ***"
+**Llihavoitu teksti**  tuplatähdillä tai tupla-alaviivoilla,
+ _kursivoitu_ tähdillä tai alaviivoilla ja
+***lihavoidulla kursiivilla*** kolmella tähdellä.
