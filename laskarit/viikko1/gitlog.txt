@@ -1,0 +1,122 @@
+commit d4a281d75392990ae34348ea86f32931d818483f
+Author: Susanna Mahlamäki <liisa.mahlamaki@helsinki.fi>
+Date:   Sat Nov 5 19:38:32 2022 +0200
+
+    file22 commitettu
+
+ tiedostoja/file22 | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit ffa8a79b58f0de3ddbef5980654769328e5ad781
+Author: Susanna Mahlamäki <liisa.mahlamaki@helsinki.fi>
+Date:   Sat Nov 5 19:34:11 2022 +0200
+
+    "uudelleen nimettiin file2 file22:seksi
+
+ tiedostoja/file2 | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 06ef052f400d50d9cacc4f74aeb2706b6e906d99
+Author: Susanna Mahlamäki <liisa.mahlamaki@helsinki.fi>
+Date:   Sat Nov 5 19:32:42 2022 +0200
+
+     poistettiin file1 ohjeen mukaan
+
+ tiedostoja/file1 | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 3e8ab80998465727ade9a1b6a1e955229fc22578
+Author: Susanna Mahlamäki <liisa.mahlamaki@helsinki.fi>
+Date:   Sat Nov 5 19:20:31 2022 +0200
+
+    lisättiin kansio ja sen sisältö
+
+ tiedostoja/file1 | 0
+ tiedostoja/file2 | 0
+ tiedostoja/file3 | 0
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+
+commit c5141f80f843da46183954fa5d7da994c6fa0be0
+Author: Susanna Mahlamäki <liisa.mahlamaki@helsinki.fi>
+Date:   Sat Nov 5 18:04:07 2022 +0200
+
+    Tiedostoihin eka.txt ja kolmas.txt tehtiin poistoja ja lisäyksiä
+
+ eka.txt    | 5 ++++-
+ kolmas.txt | 3 ++-
+ 2 files changed, 6 insertions(+), 2 deletions(-)
+
+commit 984c794fc137e6d456f4b26e6290b3753aa85ea5
+Author: Susanna Mahlamäki <liisa.mahlamaki@helsinki.fi>
+Date:   Sat Nov 5 17:58:29 2022 +0200
+
+    tiedotoso.txt nimi vaihteddu eka.txt
+
+ tiedosto.txt => eka.txt | 0
+ toinen.txt              | 1 -
+ 2 files changed, 1 deletion(-)
+
+commit 598ced6c02267743d039975cedb9d068de73258f
+Author: Susanna Mahlamäki <liisa.mahlamaki@helsinki.fi>
+Date:   Sat Nov 5 17:51:09 2022 +0200
+
+    tiedosto.txt tekstin vähentäminen ja lisääminen
+
+ tiedosto.txt | 10 +---------
+ 1 file changed, 1 insertion(+), 9 deletions(-)
+
+commit bb4c9ae4243ba64fa196a537e17c96f5e0168e4f
+Author: Susanna Mahlamäki <liisa.mahlamaki@helsinki.fi>
+Date:   Sat Nov 5 17:47:39 2022 +0200
+
+    tiedosto.txt tekstin lisäys
+
+ tiedosto.txt | 13 +++++++++++++
+ 1 file changed, 13 insertions(+)
+
+commit 0f0ac19bededbbc3070a77766faa76b1eef25ad8
+Author: Susanna Mahlamäki <liisa.mahlamaki@helsinki.fi>
+Date:   Sat Nov 5 16:32:59 2022 +0200
+
+    lisäys
+
+ stuff/jokin.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit bb8b808ac56254d0aba343ded36f5d9fed315f10
+Author: Susanna Mahlamäki <liisa.mahlamaki@helsinki.fi>
+Date:   Sat Nov 5 16:30:27 2022 +0200
+
+    muutoksia
+
+ kolmas.txt | 1 +
+ toinen.txt | 1 +
+ 2 files changed, 2 insertions(+)
+
+commit e6e2392f7bdec2f97605e81bae6e1f830fa14691
+Author: Susanna Mahlamäki <liisa.mahlamaki@helsinki.fi>
+Date:   Sat Nov 5 16:26:39 2022 +0200
+
+    lisäys
+
+ kolmas.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 92c9f413471ac2c50e10f17662e8522d96cc4686
+Author: Susanna Mahlamäki <liisa.mahlamaki@helsinki.fi>
+Date:   Sat Nov 5 13:52:25 2022 +0200
+
+    muutos ja lisäys
+
+ tiedosto.txt | 1 +
+ toinen.txt   | 0
+ 2 files changed, 1 insertion(+)
+
+commit 7f8a222954d36a2e9806ff0a093769c439e3a712
+Author: Susanna Mahlamäki <liisa.mahlamaki@helsinki.fi>
+Date:   Sat Nov 5 13:40:22 2022 +0200
+
+    tiedosto.txt luotu
+
+ tiedosto.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
