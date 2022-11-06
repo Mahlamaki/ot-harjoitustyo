@@ -1,6 +1,8 @@
 ## Ohjelmistotekniikka, hajoitustyö
 
-#### Tehtävät
+### Tehtävät
+
+#### Viikko 1
 
 [gitlog.txt](https://github.com/Mahlamaki/ot-harjoitustyo/blob/master/laskarit/viikko1/gitlog.txt)
 
