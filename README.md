@@ -10,7 +10,7 @@
 
 #### Viikko 2
 
-[vaatimusmaarittely.md]()
+[vaatimusmaarittely.md](https://github.com/Mahlamaki/ot-harjoitustyo/blob/master/dokumentaatio/vaatimusmaarittely.md)
 
 **Llihavoitu teksti**  tuplatähdillä tai tupla-alaviivoilla,
  _kursivoitu_ tähdillä tai alaviivoilla ja

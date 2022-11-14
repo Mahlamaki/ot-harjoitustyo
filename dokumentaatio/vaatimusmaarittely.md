@@ -1,18 +1,18 @@
-#Vaatimusmäärittely
+# Vaatimusmäärittely
 
-##Sovelluksen tarkoitus
+## Sovelluksen tarkoitus
 
 
-##Käyttäjät
+## Käyttäjät
 
-##Käyttöliittymäluonnos
+## Käyttöliittymäluonnos
 
 Tähän lisään kuvan hahmotelmasta
 
-##Perusversion tarjoama toiminnallisuus
+## Perusversion tarjoama toiminnallisuus
 
-###Ennen kirjautumista
+### Ennen kirjautumista
 
-###Kirjautumisen jälkeen
+### Kirjautumisen jälkeen
 
-##Jatkokehitysideoita
+## Jatkokehitysideoita
