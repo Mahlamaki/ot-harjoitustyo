@@ -11,6 +11,8 @@
 #### Viikko 2
 
 [vaatimusmaarittely.md](https://github.com/Mahlamaki/ot-harjoitustyo/blob/master/dokumentaatio/vaatimusmaarittely.md)
+[tyoaikakirjanpito.md](https://github.com/Mahlamaki/ot-harjoitustyo/blob/master/dokumentaatio/tyoaikakirjanpito.md)
+
 
 **Llihavoitu teksti**  tuplatähdillä tai tupla-alaviivoilla,
  _kursivoitu_ tähdillä tai alaviivoilla ja
