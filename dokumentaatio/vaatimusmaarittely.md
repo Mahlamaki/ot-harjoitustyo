@@ -10,7 +10,7 @@ Voisi käyttäjätyyppejä olla enemmänkin.
 ## Käyttöliittymäluonnos
 Ainakin näin varhaisessa muodossa, sovelluksessa olisi 8 näkymää.
 
-__tähän tulee myöhemmin kuva__
+![luonnostelmakuva](/home/liisamah/ohte/ot-harjoitustyo)
 
 
 ## Perusversion tarjoama toiminnallisuus
