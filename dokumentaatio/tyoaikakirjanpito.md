@@ -2,5 +2,5 @@
 |----------|:-------------:|:------------|
 | 14.11 |2 |päätin harjoitustehtävän aiheeen ja suunnittelin sitä|
 | 15.11 |2 |viimeistelin käyttöjärjestelmäluonnoksen ja vaatimusmäärittelyn sekä loin tyoaikakirjanpidon|
-| 19.11 |1 |poetry projektin alustus|
-| yht.|5|
+| 19.11 |3 |poetry projektin alustus, ja siinä järkyttävästi epäonnistuminen, kaikki edistys piti poistaa|
+| yht.|7|
