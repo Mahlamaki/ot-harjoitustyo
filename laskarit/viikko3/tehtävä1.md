@@ -3,10 +3,8 @@ classDiagram
 	Pelilauta --|> Ruudut
 	Ruudut "1" --> "*" Pelaajat
 	Pelaajat "1" --> "1" Pelinappulat
-	class Pelilauta {
-		+pelivuoro
-		+nopanheitto()
-	}
+	Pelilauta : +pelivuoro
+	Pelilauta : +nopanheitto()
 	class Ruudut {
 	}
 	class Pelaajat {
@@ -18,5 +16,3 @@ classDiagram
 		+pelaaja_id
 	}
 ``
-	
-	
