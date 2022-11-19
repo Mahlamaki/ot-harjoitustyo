@@ -9,6 +9,7 @@ Talot_Hotellit <|-- Ruudut
 Pelilauta : +heittovuoro
 Pelilauta : +toiminto()
 class Ruudut {
++id
 +pelaaja_id
 +Aloitusruutu
 +Vankila
@@ -25,6 +26,7 @@ class Kortit {
 +toiminto()
 }
 class Pelinappulat {
++id
 +ruutu_id
 +pelaaja_id
 +toiminto()
@@ -36,6 +38,7 @@ class Pelaajat {
 +toiminto()
 }
 class Talot_Hotellit {
++id
 +ruutu_id
 +nappula_id
 +määrä
