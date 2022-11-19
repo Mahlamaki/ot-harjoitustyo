@@ -2,7 +2,7 @@
 classDiagram
 Pelilauta -- Ruudut
 Pelilauta -- Pelaajat
-Pelaajat -- Ruudut
+Pelinappulat -- Ruudut
 Pelaajat --  Pelinappulat
 ```
 
