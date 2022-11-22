@@ -1,12 +1,4 @@
 class Card:
-    """Class for single card of question and answer
-
-    Atributes:
-        Q : str, question
-        A : str, answer
-        user: user-object, owner of the card
-        card_id: str, cards id number
-    """
 
     def __init__(self,Q,A,user=None,card_id=None):
         """Constructor, creates a new card"""
