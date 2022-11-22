@@ -3,5 +3,5 @@ class User:
 
     def __init__(self,username: str,name:str):
         self._username = username
-        self.name = name
+        self._name = name
 
