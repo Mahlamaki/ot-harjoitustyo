@@ -5,4 +5,5 @@
 | 19.11 |3 |poetry projektin alustus, ja siinä järkyttävästi epäonnistuminen, kaikki edistys piti poistaa|
 | 20.11 |2 |poetry projektn alustus, ensimmäisten luokkien luomista|
 | 21.11 |3.5| sekoilua, aikaisemman edistyksen poistamista, tiedon etsintää, harmittelua|
-| yht.|12.5|
+| 24.11 |5.5| käyttöjärjestelmän hahmottelua|
+| yht.|18|
