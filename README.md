@@ -2,21 +2,14 @@
 
 ### Tehtävät
 
-#### Viikko 1
+#Kertauskamu
+Kertauskamu on paperiton tapa luoda oppimateriaalia kertaavia muistipelilappuja.
+Kysymyksien keksiminen ja niihin vastaaminen edistävät oppimista.
+Lappuja on sitten kätevää ja hyödyllistä käyttää materiaalin aktiivisessa mieleen palauttamisessa.
+#### Dokumentaatio
 
-[gitlog.txt](https://github.com/Mahlamaki/ot-harjoitustyo/blob/master/laskarit/viikko1/gitlog.txt)
+[Vaatimusmäärittely](https://github.com/Mahlamaki/ot-harjoitustyo/blob/master/dokumentaatio/vaatimusmaarittely.md)
 
-[komentorivi.txt](https://github.com/Mahlamaki/ot-harjoitustyo/blob/master/laskarit/viikko1/komentorivi.txt)
-
-#### Viikko 2
-
-[vaatimusmaarittely.md](https://github.com/Mahlamaki/ot-harjoitustyo/blob/master/dokumentaatio/vaatimusmaarittely.md)
-
-[tyoaikakirjanpito.md](https://github.com/Mahlamaki/ot-harjoitustyo/blob/master/dokumentaatio/tyoaikakirjanpito.md)
-
-
-**Llihavoitu teksti**  tuplatähdillä tai tupla-alaviivoilla,
- _kursivoitu_ tähdillä tai alaviivoilla ja
-***lihavoidulla kursiivilla*** kolmella tähdellä.
+[Työaikakirjanpito](https://github.com/Mahlamaki/ot-harjoitustyo/blob/master/dokumentaatio/tyoaikakirjanpito.md)
 
 

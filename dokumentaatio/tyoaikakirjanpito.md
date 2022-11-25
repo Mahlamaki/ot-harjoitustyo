@@ -6,4 +6,5 @@
 | 20.11 |2 |poetry projektn alustus, ensimmäisten luokkien luomista|
 | 21.11 |3.5| sekoilua, aikaisemman edistyksen poistamista, tiedon etsintää, harmittelua|
 | 24.11 |5.5| käyttöjärjestelmän hahmottelua|
-| yht.|18|
+| 25.11 |3| Graafisen käyttöjärjestelmän rakentamista|
+| yht.|21|
