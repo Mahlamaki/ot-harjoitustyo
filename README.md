@@ -7,7 +7,8 @@ Sovellus tulee toimimaan kirjakerhomme kirjarekisterinä. Lisäämme sinne aina 
 ## Dokumentaatio
 
 - [Vaatimusmäärittely](./dokumentaatio/vaatimusmaarittely.md)
-
+- [Työaikakirjanpito](./dokumentaatio/tuntikirjanpito.md)
+  
 ## Laskarit
 
  - [Linkki laskareihin](./laskarit)
