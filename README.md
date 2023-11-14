@@ -1,5 +1,13 @@
 # Ohjelmistotekniikka, harjoitustyö
 
-Harjoitustyöni tulee mitä luultavimmin olemaan jonkinlainen **peli**, ehkä *laivanupotus* tai *miinaharava*.
+## Kirjakerholog
 
-Linkki laskareihin: https://github.com/Mahlamaki/ot-harjoitustyo/tree/main/laskarit
+Sovellus tulee toimimaan kirjakerhomme kirjarekisterinä. Lisäämme sinne aina luetun kirjan. Kirjasta tallennetaan ainakin seuraavat tiedot: Kirjoittaja, Kirjan nimi, Kirjakerhon antama arvostelu. Kirjakerhon rekisteristä voi sitten katsoa, mitä kaikkia kirjoja on luettu ja mitä arvosanoja niille on annettu. Lisäksi kirjoja voidaan etsiä eri hakutoiminnoin, esimerkiksi kirjailijan tai arvioinnin mukaan.
+
+## Dokumentaatio
+
+- [Vaatimusmäärittely](./dokumentaatio/vaatimusmaarittely.md)
+
+## Laskarit
+
+ - [Linkki laskareihin](./laskarit)
