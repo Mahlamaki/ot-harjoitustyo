@@ -111,3 +111,4 @@ class TestKassapaate(unittest.TestCase):
 
         self.assertEqual(kortti.saldo, 100)
         self.assertEqual(self.kassapaate.kassassa_rahaa_euroina(), 1000.0)
+        
