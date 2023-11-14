@@ -1,26 +1,28 @@
-#Vaatimusmäärittely
+# Vaatimusmäärittely
 
-##Sovelluksen kuvaus
+## Sovelluksen kuvaus
 
 Sovelluksen avulla kirjakerhomme jäsenet pystyvät pitämään kirjaa kirjakerhossa luetuista kirjoista.
 
-##Käyttäjät
+## Käyttäjät
 
 Sovelluksessa on vain yksi käyttäjärooli, sillä kirjakerhon kaikki jäsenet ovat tasavertaisia.
 
-##Käyttöliittymä
+## Käyttöliittymä
 
 Käyttöliittymä tulee olemaan teksikäyttöliittymä. 
 
-##Sovelluksen toiminnallisuus
+## Sovelluksen toiminnallisuus
 
 - käyttäjä voi lisätä luotujen kirjojen listalle uuden kirjan (kirjoittaja,kirjannimi,kirjakerhon antama arvostelu)
 - Käyttäjä voi tarkastella lisättyjä kirjoja
- - katsoa kaikkia kerrallaan
- - etsiä nimen, kirjoittajan, arvosanan mukaan
+  - katsoa kaikkia kerrallaan
+  - etsiä nimen, kirjoittajan, arvosanan mukaan
 - jo lisätyn kirjan voi poistaa, tai sen tietoja muokata
 
-##Jatkokehitysideoita
+## Jatkokehitysideoita
+
+Mikäli aikaa riittää, pyritään toteuttamaan mahdollisesti myös seuraavanlaisia toiminnallisuuksia
 
 - kirjakerhon jäsenet voisi erotella niin, että jokainen voi antaa oman itsenäisen arvoin, eikä vain koko kerhon yhteystä
 - kirjasta voisi lisätä lisää tietoja
