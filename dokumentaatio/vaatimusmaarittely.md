@@ -10,7 +10,7 @@ Sovelluksessa on vain yksi käyttäjärooli, sillä kirjakerhon kaikki jäsenet 
 
 ## Käyttöliittymä
 
-Käyttöliittymä tulee olemaan teksikäyttöliittymä. 
+Käyttöliittymä tulee olemaan tekstikäyttöliittymä. 
 
 ## Sovelluksen toiminnallisuus
 
