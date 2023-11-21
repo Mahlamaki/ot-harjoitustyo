@@ -8,6 +8,7 @@ Sovellus tulee toimimaan kirjakerhomme kirjarekisterinä. Lisäämme sinne aina 
 
 - [Vaatimusmäärittely](./dokumentaatio/vaatimusmaarittely.md)
 - [Työaikakirjanpito](./dokumentaatio/tuntikirjanpito.md)
+- [Changeloog](./dokumentaatio/changelog.md)
   
 ## Laskarit
 
