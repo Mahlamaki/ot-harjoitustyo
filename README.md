@@ -10,6 +10,4 @@ Sovellus tulee toimimaan kirjakerhomme kirjarekisterinä. Lisäämme sinne aina 
 - [Työaikakirjanpito](./dokumentaatio/tuntikirjanpito.md)
 - [Changeloog](./dokumentaatio/changelog.md)
   
-## Laskarit
 
- - [Linkki laskareihin](./laskarit)
