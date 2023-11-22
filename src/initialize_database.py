@@ -1,14 +1,12 @@
 from database_connection import get_database_connection
 
 
-
-
 def create_tables(connection):
-
 
     cursor = connection.cursor()
 
-    cursor.execute("""CREATE TABLE books (id SERIAL PRIMARY KEY, title TEXT, author TEXT, rating INT);""")
+    cursor.execute(
+        """CREATE TABLE books (id SERIAL PRIMARY KEY, title TEXT, author TEXT, rating INT);""")
 
     connection.commit()
 

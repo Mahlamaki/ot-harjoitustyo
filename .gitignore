@@ -4,3 +4,8 @@ htmlcov
 __pycache__
 *.py[cod]
 .bashrc
+
+# data files
+data/database.db
+data/test-database.db
+
