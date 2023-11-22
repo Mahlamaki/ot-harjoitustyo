@@ -1,16 +1,31 @@
 from entities.book import Book
+from database_connection import get_database_connection
+
+def get_book_by_row(row):
+    return Book(row["title"], row["author"], row["rating"]) if row else None
 
 class BookRepository:
-    def __init__(self):
+    def __init__(self, connection):
+        self._connection = connection
 
-        self._temporary_books = [] #tämä korvataan jollakin reitillä tietokantaan
+    def fetch_all(self):
+        cursor = self._connection.cursor()
+        cursor.execute("select * from books")
+        rows = cursor.fetchall()
+        books = []
+        for row in rows:
+            books.append(get_book_by_row(row))
+        return books
 
     def add(self, book):
-        self._temporary_books.append(book)
+        cursor = self._connection.cursor()
+        cursor.execute("INSERT INTO books (title,author,rating) values (?, ?, ?)", (book.title, book.author, book.rating))
+        self._connection.commit()
         print(f"Tallensit kirjan nimeltä {book.title}")
         return book
-    
+
     def browse(self):
-        for book in self._temporary_books:
-            print(book.title)
-        return  self._temporary_books
+        books = self.fetch_all()
+        return books
+
+book_repository = BookRepository(get_database_connection())
