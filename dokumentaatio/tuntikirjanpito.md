@@ -9,5 +9,5 @@
 | 23.11 | 1  | Yritin luoda kirjojen selausnäkymää siinä toistaiseksi onnistumatta, TkInter tuntuu vielä haastavalta|
 | 24.11 | 3  | Lisää Tkinterin opettelua, kirjojen selausnäkymän hienosäätöä.
 | 27.11 | 2.5  | TkInteri toteutuksen tekoa, testien tekoa 
-| 28.11 | 3  | Ui:n pilkkomista järkevämpiin osiin, käynnistysohjeiden teko, arkkitehtuuri.md lisääminen, README.md:n päpivitystä
+| 28.11 | 3  | Ui:n pilkkomista järkevämpiin osiin, käynnistysohjeiden teko, arkkitehtuuri.md lisääminen, README.md:n päivitystä
 | Yht.  |  22  |
