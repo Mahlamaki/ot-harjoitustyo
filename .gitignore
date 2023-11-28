@@ -6,6 +6,6 @@ __pycache__
 .bashrc
 
 # data files
-data/database.db
-data/test-database.db
+data/database.sqlite
+data/test-database.sqlite
 
