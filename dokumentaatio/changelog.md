@@ -6,7 +6,7 @@
 - Lisätty luokat BookRepository, BookService ja Book
 - Testattu, että Book olio luodaan oikein
 
-## Viikko3
+## Viikko4
 
 - Käyttäjä pystyy tallentamaan kirjan tietokantaan
 - Käyttäjä pystyy selaamaan kaikkia luotuja kirjoja
