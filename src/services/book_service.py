@@ -11,7 +11,7 @@ class BookService:
         self._book_repository.add(book)
 
     def browse_all_books(self):
-        self._book_repository.browse()
+        return self._book_repository.browse()
 
 
 book_service = BookService()

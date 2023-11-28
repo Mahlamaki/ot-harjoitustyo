@@ -5,3 +5,10 @@
 - Käyttäjä pystyy luomaan Book-olion, mutta toistaiseksi sitä ei vielä tallenneta pysyvästi mihinkään
 - Lisätty luokat BookRepository, BookService ja Book
 - Testattu, että Book olio luodaan oikein
+
+## Viikko3
+
+- Käyttäjä pystyy tallentamaan kirjan tietokantaan
+- Käyttäjä pystyy selaamaan kaikkia luotuja kirjoja
+- tehty book_repository.py:lle testit
+- Luotu näkymä kirjojen selailulle

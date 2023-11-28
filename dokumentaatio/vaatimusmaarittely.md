@@ -14,9 +14,9 @@ Käyttöliittymä tulee olemaan tekstikäyttöliittymä.
 
 ## Sovelluksen toiminnallisuus
 
-- käyttäjä voi lisätä luotujen kirjojen listalle uuden kirjan (kirjoittaja,kirjannimi,kirjakerhon antama arvostelu)
+[x] käyttäjä voi lisätä luotujen kirjojen listalle uuden kirjan (kirjoittaja,kirjannimi,kirjakerhon antama arvostelu)
 - Käyttäjä voi tarkastella lisättyjä kirjoja
-  - katsoa kaikkia kerrallaan
+  [x] katsoa kaikkia kerrallaan
   - etsiä nimen, kirjoittajan, arvosanan mukaan
 - jo lisätyn kirjan voi poistaa, tai sen tietoja muokata
 

@@ -14,9 +14,7 @@ class BookRepository:
         cursor = self._connection.cursor()
         cursor.execute("select * from books")
         rows = cursor.fetchall()
-        books = []
-        for row in rows:
-            books.append(get_book_by_row(row))
+        books = [get_book_by_row(row) for row in rows]
         return books
 
     def add(self, book):
@@ -29,8 +27,15 @@ class BookRepository:
 
     def browse(self):
         books = self.fetch_all()
-        print(books) #tämä on väliaikainen
         return books
+
+    def delete_all(self):
+
+        cursor = self._connection.cursor()
+
+        cursor.execute("delete from books")
+
+        self._connection.commit()
 
 
 book_repository = BookRepository(get_database_connection())

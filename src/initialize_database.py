@@ -1,6 +1,17 @@
 from database_connection import get_database_connection
 
 
+def drop_tables(connection):
+
+    cursor = connection.cursor()
+
+    cursor.execute("""
+        drop table if exists books;
+    """)
+
+    connection.commit()
+
+
 def create_tables(connection):
 
     cursor = connection.cursor()
@@ -14,6 +25,7 @@ def create_tables(connection):
 def initialize_database():
 
     connection = get_database_connection()
+    drop_tables(connection)
     create_tables(connection)
 
 
