@@ -14,11 +14,11 @@ Käyttöliittymä tulee olemaan tekstikäyttöliittymä.
 
 ## Sovelluksen toiminnallisuus
 
-[x] käyttäjä voi lisätä luotujen kirjojen listalle uuden kirjan (kirjoittaja,kirjannimi,kirjakerhon antama arvostelu)
-- Käyttäjä voi tarkastella lisättyjä kirjoja
-  [x] katsoa kaikkia kerrallaan
-  - etsiä nimen, kirjoittajan, arvosanan mukaan
-- jo lisätyn kirjan voi poistaa, tai sen tietoja muokata
+- [x] käyttäjä voi lisätä luotujen kirjojen listalle uuden kirjan (kirjoittaja,kirjannimi,kirjakerhon antama arvostelu)
+- [x] Käyttäjä voi tarkastella lisättyjä kirjoja kaikkia kerrallaan
+- [ ] Käyttäjä voi etsiä nimen, kirjoittajan, arvosanan perusteella kirjoja
+- [ ] Käyttäjä voi poistaa jo lisätyn kirjan
+- [ ] Käyttäjä voi muokata olemassaolevaa kirjaa
 
 ## Jatkokehitysideoita
 
