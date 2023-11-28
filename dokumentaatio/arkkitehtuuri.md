@@ -19,4 +19,8 @@ BookServicessä on yksi luokka. Alla listattuna sen tähänastiset metodit.
 
 _BookService_ on yhteydessä [BookReporitory](https://github.com/Mahlamaki/ot-harjoitustyo/blob/main/src/repositories/book_repository.py)yn, jonka kautta saadaan hoidettua tietokantaannan kanssa kommunikointi.
 
+Projektin luokka/pakkauskaavio:
+
+![Pakkauskaavio](./kuvat/pakkauskaavio.png)
+
 
