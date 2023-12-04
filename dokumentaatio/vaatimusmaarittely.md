@@ -17,7 +17,7 @@ Käyttöliittymä tulee olemaan tekstikäyttöliittymä.
 - [x] käyttäjä voi lisätä luotujen kirjojen listalle uuden kirjan (kirjoittaja,kirjannimi,kirjakerhon antama arvostelu)
 - [x] Käyttäjä voi tarkastella lisättyjä kirjoja kaikkia kerrallaan
 - [ ] Käyttäjä voi etsiä nimen, kirjoittajan, arvosanan perusteella kirjoja
-- [ ] Käyttäjä voi poistaa jo lisätyn kirjan
+- [x] Käyttäjä voi poistaa jo lisätyn kirjan
 - [ ] Käyttäjä voi muokata olemassaolevaa kirjaa
 
 ## Jatkokehitysideoita
@@ -28,3 +28,5 @@ Mikäli aikaa riittää, pyritään toteuttamaan mahdollisesti myös seuraavanla
 - kirjasta voisi lisätä lisää tietoja
 - hakutoimintoja voisi järjestää ja laajentaa
 - sovellukseen voisi lisätä kirjaehdotuksia, eli kirjoja, joita ei ole vielä luettu
+- voitaisiin listätä top 3 ja bottom 3 listaus kirjoista jotka arvioitu parhaimmaksi ja huonoimmaksi
+

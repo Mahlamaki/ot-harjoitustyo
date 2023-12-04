@@ -12,3 +12,6 @@
 - Käyttäjä pystyy selaamaan kaikkia luotuja kirjoja
 - tehty book_repository.py:lle testit
 - Luotu näkymä kirjojen selailulle
+
+## Viikko5
+- Käyttäjä voi poistaa lisätyn kirjan

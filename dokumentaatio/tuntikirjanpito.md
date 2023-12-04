@@ -10,4 +10,5 @@
 | 24.11 | 3  | Lisää Tkinterin opettelua, kirjojen selausnäkymän hienosäätöä.
 | 27.11 | 2.5  | TkInteri toteutuksen tekoa, testien tekoa 
 | 28.11 | 4  | Ui:n pilkkomista järkevämpiin osiin, käynnistysohjeiden teko, arkkitehtuuri.md lisääminen, README.md:n päivitystä, testataan että kloonattu projekt toimii ja että on otteutettu viikkon vaatimukset
-| Yht.  |  23  |
+| 4.11  | 1  | Ui toteutus kirjan poistamiselle
+| Yht.  |  24  |

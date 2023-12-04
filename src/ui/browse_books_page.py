@@ -1,4 +1,5 @@
 from tkinter import Tk, ttk, constants, Text, WORD, END, DISABLED, NORMAL, RIGHT, Y, BOTH
+from tkinter import simpledialog
 from services.book_service import BookService
 
 class BrowseBooks:
@@ -35,7 +36,20 @@ class BrowseBooks:
 
         books = self._show_books()
 
+
+
         go_back_button.pack(padx=(0, 0), pady=(10, 10))
+        
+
+        delete_message = ttk.Label(master=self._frame, text="Kirjoita tähän poistettavan kirja nimi", font=("Geneva", 12))
+        self._delete_book_entry = ttk.Entry(master=self._frame, width=40)
+        delete_button = ttk.Button(
+            master=self._frame, text="Poista", command=self._delete)
+        
+        delete_message.pack(padx=(0, 10), pady=(10, 10))
+
+        self._delete_book_entry.pack(padx=(20, 20), pady=(10, 10))
+        delete_button.pack(padx=(0, 0), pady=(10, 10))
 
     def _show_books(self):
         bookservice = BookService()
@@ -51,3 +65,23 @@ class BrowseBooks:
         self.text.configure(state=DISABLED)
 
         return books 
+
+
+    def _delete(self):
+        book_name = self._delete_book_entry.get()
+        if book_name:
+            bookservice = BookService()
+            books = bookservice.browse_all_books()
+            deleted = False
+
+            for book in books:
+                if book.title == book_name:
+                    bookservice.delete_book(book.title)
+                    deleted = True
+                    break
+
+            if deleted:
+                self._show_books()
+            else:
+                print(f"Kirjaa nimeltä {book_name} ei löytynyt.")
+
