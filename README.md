@@ -10,6 +10,7 @@ Sovellus tulee toimimaan kirjakerhomme kirjarekisterinä. Lisäämme sinne aina 
 - [Työaikakirjanpito](./dokumentaatio/tuntikirjanpito.md)
 - [Changeloog](./dokumentaatio/changelog.md)
 - [Arkkitehtuurikuvaus](./dokumentaatio/arkkitehtuuri.md)
+- [Release](https://github.com/Mahlamaki/ot-harjoitustyo/releases)
   
 ## Projektin asennusohjeet
 
