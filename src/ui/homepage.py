@@ -1,5 +1,6 @@
 from tkinter import ttk, constants
 
+
 class HomePageView:
 
     def __init__(self, root, add_book, browse_books, close):

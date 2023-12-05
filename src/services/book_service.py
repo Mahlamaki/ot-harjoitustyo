@@ -12,9 +12,15 @@ class BookService:
 
     def browse_all_books(self):
         return self._book_repository.browse()
-    
-    def delete_book(self,book):
+
+    def delete_book(self, book):
         return self._book_repository.delete_selected_book(book)
+
+    def all_authors(self):
+        return self._book_repository.get_authors()
+
+    def all_ratings(self):
+        return self._book_repository.get_ratings()
 
 
 book_service = BookService()

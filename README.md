@@ -45,7 +45,7 @@ poetry run invoke start
 
 ### testaus
 ```
-poetru run invoke test
+poetry run invoke test
 ```
 
 ### testikattavuus

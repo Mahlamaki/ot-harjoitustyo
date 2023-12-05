@@ -16,7 +16,7 @@ Käyttöliittymä tulee olemaan tekstikäyttöliittymä.
 
 - [x] käyttäjä voi lisätä luotujen kirjojen listalle uuden kirjan (kirjoittaja,kirjannimi,kirjakerhon antama arvostelu)
 - [x] Käyttäjä voi tarkastella lisättyjä kirjoja kaikkia kerrallaan
-- [ ] Käyttäjä voi etsiä nimen, kirjoittajan, arvosanan perusteella kirjoja
+- [x] Käyttäjä voi filtteröidä kirjoja kirjoittajan tai arvosanan perusteella
 - [x] Käyttäjä voi poistaa jo lisätyn kirjan
 - [ ] Käyttäjä voi muokata olemassaolevaa kirjaa
 

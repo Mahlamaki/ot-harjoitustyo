@@ -1,6 +1,7 @@
 from tkinter import ttk, constants
 from services.book_service import BookService
 
+
 class AddBook:
     def __init__(self, root, homepage):
         self._root = root
@@ -52,4 +53,4 @@ class AddBook:
         bookservice = BookService()
 
         bookservice.add_new_book(title, author, rating)
-        self._homepage() 
+        self._homepage()

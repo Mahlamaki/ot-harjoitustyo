@@ -15,3 +15,5 @@
 
 ## Viikko5
 - Käyttäjä voi poistaa lisätyn kirjan
+- Käyttäjä voi filtteröidä näkyvillä olevia kirjoja kirjoittajan ja arvosanan mukaan
+- tehty uudet testit book_repository.py:lle

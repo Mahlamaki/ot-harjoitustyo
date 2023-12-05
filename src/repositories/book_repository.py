@@ -28,12 +28,11 @@ class BookRepository:
     def browse(self):
         books = self.fetch_all()
         return books
-    
-    def delete_selected_book(self,title):
-        cursor = self._connection.cursor()
-        cursor.execute("delete from books where title = ?", (title))
-        self._connection.commit()
 
+    def delete_selected_book(self, title):
+        cursor = self._connection.cursor()
+        cursor.execute("delete from books where title = ?", (title, ))
+        self._connection.commit()
 
     def delete_all(self):
 
@@ -42,6 +41,28 @@ class BookRepository:
         cursor.execute("delete from books")
 
         self._connection.commit()
+
+    def get_authors(self):
+        cursor = self._connection.cursor()
+        authors = ["Kaikki",]
+        cursor.execute("select distinct author from books order by author")
+        rows = cursor.fetchall()
+        for book in rows:
+            author = book[0]
+            authors.append(author)
+
+        return authors
+
+    def get_ratings(self):
+        cursor = self._connection.cursor()
+        ratings = ["Kaikki",]
+        cursor.execute("select distinct rating from books order by rating")
+        rows = cursor.fetchall()
+        for book in rows:
+            rating = book[0]
+            ratings.append(rating)
+
+        return ratings
 
 
 book_repository = BookRepository(get_database_connection())
