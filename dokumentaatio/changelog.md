@@ -14,6 +14,15 @@
 - Luotu näkymä kirjojen selailulle
 
 ## Viikko5
+
 - Käyttäjä voi poistaa lisätyn kirjan
 - Käyttäjä voi filtteröidä näkyvillä olevia kirjoja kirjoittajan ja arvosanan mukaan
 - tehty uudet testit book_repository.py:lle
+
+## Viikko6
+
+- Uuden kirjan luonnissa syötteen validointi, eli varmistetaan, että tyhjää kirjaa ei voida lisätä ja että arvosana on kokonaisluku väliltä 1-5
+- Docstringien kirjoittamista
+- Filtteröinnin korjailua
+- Ohjelmasta poistumiseen luotu nappi
+- Käyttöohjeiden tekoa

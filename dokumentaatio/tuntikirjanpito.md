@@ -12,4 +12,8 @@
 | 28.11 | 4  | Ui:n pilkkomista järkevämpiin osiin, käynnistysohjeiden teko, arkkitehtuuri.md lisääminen, README.md:n päivitystä, testataan että kloonattu projekt toimii ja että on otteutettu viikkon vaatimukset
 | 4.12  | 1  | Ui toteutus kirjan poistamiselle
 | 5.12  | 6  | Toteutus ja UI filtteröinnille kirjoittajan ja arvosanan mukaan, testien tekoa
-| Yht.  |  30  |
+| 8.12  | 1  | Tkinteriin tutustumista, tutkitaan miten kirjanluonnin syöte voitaisiin validoida
+| 9.12  | 2  | Syötteen validoinnin rakentelua
+| 11.12 | 4  | Syötteen validoinnin viimeistely, docstringien tekoa, filtteröinnin korjailua
+| 12.12 | 3  | Käyttöohjeiden tekoa, Nappi ohjelman sulkemista varten.
+| Yht.  |  40  |

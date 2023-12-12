@@ -2,6 +2,7 @@ from database_connection import get_database_connection
 
 
 def drop_tables(connection):
+    """ Poista kaikki taulut tietokannasta"""
 
     cursor = connection.cursor()
 
@@ -13,6 +14,11 @@ def drop_tables(connection):
 
 
 def create_tables(connection):
+    """Luo sovelluksen tietokantataulut.
+
+    Args:
+        connection: Tietokantayhteyden Connection-olio
+    """
 
     cursor = connection.cursor()
 
@@ -23,6 +29,7 @@ def create_tables(connection):
 
 
 def initialize_database():
+    """Alustaa sovelluksen tietokantataulut"""
 
     connection = get_database_connection()
     drop_tables(connection)

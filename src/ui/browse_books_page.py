@@ -4,7 +4,17 @@ from services.book_service import BookService
 
 
 class BrowseBooks:
+    """Luokka joka vastaa kirjojen selausnäkymästä"""
+
     def __init__(self, root, homepage):
+        """
+        Luokan konstruktori. Alustaa AddBook näkymästä vastaavan luokan
+
+        Args:
+        - root : tkinter ikkuna
+        - homepage : kotisivulle navigointia varten
+        """
+
         self._root = root
         self._frame = None
         self._homepage = homepage
@@ -12,9 +22,13 @@ class BrowseBooks:
         self._initialize()
 
     def pack(self):
+        """Näyttää näkymän"""
+
         self._frame.pack(fill=constants.X)
 
     def destroy(self):
+        """Tuhoaa näkymän"""
+
         self._frame.destroy()
 
     def _initialize(self):
@@ -72,6 +86,8 @@ class BrowseBooks:
         self._show_books()
 
     def _show_books(self):
+        """ Näytetään tietokannassa olevat kirjat tekstikentässä"""
+
         # Chatgpt- ajatus saatu chatgpt, koodia muutettu alkaa
         if getattr(self, '_filter_used', False):
             self._filter_books()
@@ -92,6 +108,8 @@ class BrowseBooks:
         books = self._bookservice.browse_all_books()
 
     def _delete(self):
+        """ Poistetaan haluttu kirja kirjan nimen mukaan tietokannasta ja ikkunanäkymästä"""
+
         book_name = self._delete_book_entry.get()
         if book_name:
             bookservice = BookService()
@@ -110,6 +128,8 @@ class BrowseBooks:
                 print(f"Kirjaa nimeltä {book_name} ei löytynyt.")
 
     def _filter_books(self):
+        """Mahdollistaa kirjojen filtteröinnin joko arvosanan tai kirjoittajan mukaan"""
+
         # hain tkinteriin liittyen ideoita Chatgpt:stä, koodia muutettu, alku
         author = self._author_var.get()
         rating = self._rating_var.get()
@@ -119,7 +139,7 @@ class BrowseBooks:
 
         for book in books:
             if (author == "Kaikki" or not author or book.author == author) and \
-                    (rating == "Kaikki" or not int(rating) or int(book.rating) == int(rating)):
+                    (rating == "Kaikki" or not rating or str(book.rating) == str(rating)):
                 self.text.insert(
                     END, f"Kirjan nimi: {book.title}\nKirjailija: {book.author}\nArvosana: {book.rating}\n")
                 self.text.insert(END, "\n")
