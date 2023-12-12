@@ -2,7 +2,7 @@
 
 ## Kirjakerholog
 
-Sovellus tulee toimimaan kirjakerhomme kirjarekisterinä. Lisäämme sinne aina luetun kirjan. Kirjasta tallennetaan ainakin seuraavat tiedot: Kirjoittaja, Kirjan nimi, Kirjakerhon antama Arvostelu. Kirjakerhon rekisteristä voi sitten katsoa, mitä kaikkia kirjoja on luettu ja mitä arvosanoja niille on annettu. Lisäksi kirjoja voidaan etsiä eri hakutoiminnoin, esimerkiksi kirjailijan tai arvioinnin mukaan.
+Sovellus helpottamaan kirjakerhomme login ylläpitoa. Lisäämme sinne aina luetun kirjan. Kirjasta tallennetaan ainakin seuraavat tiedot: Kirjoittaja, Kirjan nimi ja Kirjakerhon antama Arvostelu. Kirjakerhon rekisteristä voi sitten katsoa, mitä kaikkia kirjoja on luettu ja mitä arvosanoja niille on annettu. Lisäksi kirjoja voidaan etsiä eri hakutoiminnoin, esimerkiksi kirjailijan tai arvioinnin mukaan.
 
 ## Dokumentaatio
 
@@ -10,6 +10,7 @@ Sovellus tulee toimimaan kirjakerhomme kirjarekisterinä. Lisäämme sinne aina 
 - [Työaikakirjanpito](./dokumentaatio/tuntikirjanpito.md)
 - [Changeloog](./dokumentaatio/changelog.md)
 - [Arkkitehtuurikuvaus](./dokumentaatio/arkkitehtuuri.md)
+- [Käyttöohje](./dokumentaatio/kayttoohje.md)
 - [Release](https://github.com/Mahlamaki/ot-harjoitustyo/releases)
   
 ## Projektin asennusohjeet
