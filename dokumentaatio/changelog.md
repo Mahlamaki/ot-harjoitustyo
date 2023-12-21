@@ -32,4 +32,4 @@
 - Luettavien kirjojen toivelistan ui
 - Toivelistan toiminnallisuus
 - Testit 100% servicelle ja repositorylle
-- Dokumentaation päivittämistä (tuntikirjanpito, käyttöohjeet, vaatimustenmäärittely)
+- Dokumentaation päivittämistä (tuntikirjanpito, käyttöohjeet, vaatimustenmäärittely,testausdokumentti)
