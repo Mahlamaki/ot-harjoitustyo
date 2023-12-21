@@ -19,5 +19,5 @@
 | 17.12 | 2  | Ui näkymä ja perustoiminnallisuus kirjatoivelistalle
 | 18.12 | 1  | Syötteen validointia kirjatoivelistan ui:ssa
 | 20.12 | 3  | Book olion muokkaus niin, että kirjoilla on myös sarake key, jonka avulla voidaan poistaa kirjoja niin kirjalistasta kuin jo luetuista kirjoista
-| 21.12 |    | Toivelistan viimeistely, unittestien tekoa, service ja repository testikattavuus 100%, dokumentaation päivitys, lopullisen ohjelman testaaminen palautusta varten. Testidokumentin luonti.
-| Yht.  |  46  |
+| 21.12 | 5  | Toivelistan viimeistely, unittestien tekoa, service ja repository testikattavuus 100%, dokumentaation päivitys, lopullisen ohjelman testaaminen palautusta varten. Testidokumentin luonti.
+| Yht.  |  51  |
