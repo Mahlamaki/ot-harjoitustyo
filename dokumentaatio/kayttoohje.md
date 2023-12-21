@@ -24,7 +24,7 @@ Sovellus avautuu etusivunäkymään:
 
 ![](./kuvat/etusivu.png)
 
-Etusivulta pääsee siirtymään kolmeen uuteen näkymään, kirjanlisäykseen, kirjojen selaukseen ja toivelistaan. Sulje- painikkella saa suljettua sovelluksen.
+Etusivulta pääsee siirtymään kolmeen uuteen näkymään, kirjan lisäykseen, kirjojen selaukseen ja toivelistaan. Sulje- painikkella saa suljettua sovelluksen.
 
 ## Uuden kirjan lisääminen
 
