@@ -65,7 +65,7 @@ class BrowseBooks:
         self.text.configure(state=DISABLED)
 
         delete_message = ttk.Label(
-            master=self._frame, text="Kirjoita tähän poistettavan kirja nimi", font=("Geneva", 12))
+            master=self._frame, text="Kirjoita tähän poistettavan kirja ID", font=("Geneva", 12))
         self._delete_book_entry = ttk.Entry(master=self._frame, width=40)
         delete_button = ttk.Button(
             master=self._frame, text="Poista", command=self._delete)
@@ -101,7 +101,7 @@ class BrowseBooks:
 
             for book in books:
                 self.text.insert(
-                    END, f"Kirjan nimi: {book.title}\nKirjailija: {book.author}\nArvosana: {book.rating}\n")
+                    END, f"ID: {book.key}\nKirjan nimi: {book.title}\nKirjailija: {book.author}\nArvosana: {book.rating}\n")
                 self.text.insert(END, "\n")
             self.text.configure(state=DISABLED)
 
@@ -110,22 +110,22 @@ class BrowseBooks:
     def _delete(self):
         """ Poistetaan haluttu kirja kirjan nimen mukaan tietokannasta ja ikkunanäkymästä"""
 
-        book_name = self._delete_book_entry.get()
-        if book_name:
+        key = self._delete_book_entry.get()
+        if key:
             bookservice = BookService()
             books = bookservice.browse_all_books()
             deleted = False
 
             for book in books:
-                if book.title == book_name:
-                    bookservice.delete_book(book.title)
+                if book.key == key:
+                    bookservice.delete_book(book.key)
                     deleted = True
                     break
 
             if deleted:
                 self._show_books()
             else:
-                print(f"Kirjaa nimeltä {book_name} ei löytynyt.")
+                print("Kirjaa ei löytynyt ID:llä {key}")
 
     def _filter_books(self):
         """Mahdollistaa kirjojen filtteröinnin joko arvosanan tai kirjoittajan mukaan"""

@@ -23,9 +23,21 @@ def create_tables(connection):
     cursor = connection.cursor()
 
     cursor.execute(
-        """CREATE TABLE books (id SERIAL PRIMARY KEY, title TEXT, author TEXT, rating INT);""")
+    """
+    create table books (
+        id SERIAL PRIMARY KEY,
+        key TEXT,
+        title TEXT,
+        author TEXT,
+        rating INT,
+        wishlist TEXT CHECK (wishlist IN ('True', 'False'))
+    );
+    """
+)
 
     connection.commit()
+
+    cursor = connection.cursor()
 
 
 def initialize_database():

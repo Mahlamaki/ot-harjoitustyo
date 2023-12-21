@@ -16,4 +16,7 @@
 | 9.12  | 2  | Syötteen validoinnin rakentelua
 | 11.12 | 4  | Syötteen validoinnin viimeistely, docstringien tekoa, filtteröinnin korjailua
 | 12.12 | 3  | Käyttöohjeiden tekoa, Nappi ohjelman sulkemista varten.
-| Yht.  |  40  |
+| 17.12 | 2  | Ui näkymä ja perustoiminnallisuus kirjatoivelistalle
+| 18.12 | 1  | Syötteen validointia kirjatoivelistan ui:ssa
+| 20.12 | 3  | Book olion muokkaus niin, että kirjoilla on myös sarake key, jonka avulla voidaan poistaa kirjoja niin kirjalistasta kuin jo luetuista kirjoista
+| Yht.  |  46  |

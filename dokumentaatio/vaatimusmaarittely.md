@@ -2,7 +2,7 @@
 
 ## Sovelluksen kuvaus
 
-Sovelluksen avulla kirjakerhomme jäsenet pystyvät pitämään kirjaa kirjakerhossa luetuista kirjoista.
+Sovelluksen avulla kirjakerhomme jäsenet pystyvät pitämään kirjaa kirjakerhossa luetuista kirjoista. Lisäksi voidaan laittaa kirjaehdotuksia talteen toivelistalle.
 
 ## Käyttäjät
 
@@ -20,7 +20,7 @@ Graafinen käyttöliittymä Tkinterillä.
 - [x] Käyttäjä voi poistaa jo lisätyn kirjan
 - [x] Käyttäjä ei voi lisätä tyhjää kirjaa ja varmistetaan, että arviointi on kokonaisluku väliltä 1-5 (ns syötteen validointi)
 - [x] Käyttäjä pääsee pois ohelmasta "Sulje" napista, eikä vain x- painamalla
-- [ ] Käyttäjä voi ylläpitää "toivelistaa" tulevista kirjoista
+- [x] Käyttäjä voi ylläpitää "toivelistaa" tulevista kirjoista (poistaa ja lisätä kirjoja toivelistalle)
  
 ## Jatkokehitysideoita
 
