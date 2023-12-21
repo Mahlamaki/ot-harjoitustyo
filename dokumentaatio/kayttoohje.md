@@ -1,7 +1,20 @@
 # Käyttöohje
 
-## Käynnistysohje
+Voit joko ladata ohjelman lähdekoodin viimeisimmästä [Release](https://github.com/Mahlamaki/ot-harjoitustyo/releases)stä 
 
+tai
+
+kloonata ohjelman githubin kautta alla olevilla ohjeilla:
+
+```
+git clone git@github.com:Mahlamaki/ot-harjoitustyo.git
+```
+siirry sitten projektin kansioon:
+```
+cd ot-harjoitustyo
+```
+
+## Käynnistysohje
 
 Ensin asenna riippuvuudet:
 ```
