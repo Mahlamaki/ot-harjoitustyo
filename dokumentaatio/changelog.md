@@ -26,3 +26,10 @@
 - Filtteröinnin korjailua
 - Ohjelmasta poistumiseen luotu nappi
 - Käyttöohjeiden tekoa
+
+## Viikko7
+
+- Luettavien kirjojen toivelistan ui
+- Toivelistan toiminnallisuus
+- Testit 100% servicelle ja repositorylle
+- Dokumentaation päivittämistä (tuntikirjanpito, käyttöohjeet, vaatimustenmäärittely)
