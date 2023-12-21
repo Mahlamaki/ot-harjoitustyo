@@ -23,7 +23,7 @@ def create_tables(connection):
     cursor = connection.cursor()
 
     cursor.execute(
-    """
+        """
     create table books (
         id SERIAL PRIMARY KEY,
         key TEXT,
@@ -33,7 +33,7 @@ def create_tables(connection):
         wishlist TEXT CHECK (wishlist IN ('True', 'False'))
     );
     """
-)
+    )
 
     connection.commit()
 

@@ -108,7 +108,7 @@ class BrowseBooks:
         books = self._bookservice.browse_all_books()
 
     def _delete(self):
-        """ Poistetaan haluttu kirja kirjan nimen mukaan tietokannasta ja ikkunanäkymästä"""
+        """ Poistetaan haluttu kirja kirjan avaimen mukaan tietokannasta ja ikkunanäkymästä"""
 
         key = self._delete_book_entry.get()
         if key:
@@ -124,8 +124,6 @@ class BrowseBooks:
 
             if deleted:
                 self._show_books()
-            else:
-                print("Kirjaa ei löytynyt ID:llä {key}")
 
     def _filter_books(self):
         """Mahdollistaa kirjojen filtteröinnin joko arvosanan tai kirjoittajan mukaan"""
@@ -141,7 +139,7 @@ class BrowseBooks:
             if (author == "Kaikki" or not author or book.author == author) and \
                     (rating == "Kaikki" or not rating or str(book.rating) == str(rating)):
                 self.text.insert(
-                    END, f"Kirjan nimi: {book.title}\nKirjailija: {book.author}\nArvosana: {book.rating}\n")
+                    END, f"ID: {book.key}\nKirjan nimi: {book.title}\nKirjailija: {book.author}\nArvosana: {book.rating}\n")
                 self.text.insert(END, "\n")
 
         self.text.configure(state=DISABLED)

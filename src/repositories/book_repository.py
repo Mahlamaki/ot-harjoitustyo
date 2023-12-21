@@ -43,7 +43,7 @@ class BookRepository:
 
         cursor.execute(
             "insert into books (key,title,author,rating,wishlist) values (?, ?, ?, ?, ?)",
-                       (book.key, book.title, book.author, str(book.rating), "False"))
+            (book.key, book.title, book.author, str(book.rating), "False"))
         self._connection.commit()
 
         return book
