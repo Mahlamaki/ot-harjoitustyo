@@ -56,3 +56,7 @@ Kun etusivulta valitaan "Lisää kirja" päästään AddBook näkymään. Siell�
 
 "Tallenna"- napin jälkeen kutsutaan BookServicen Add_new_book(), joka saa parametreinaan kirjan nimen, kirjoittajan ja arvosanan. BookServicesta nämä tiedot menevät Book luokalle, jossa tiedoista muodostetaan Book-olio. Book olio annetaan sitten BookServicessä parametrina BookRepositorylle, joka hoitaa add() funktiolla kirjan lisäämisen tietokantaan. Tämän jälkeen näkymä palautuu takaisin etusivulle.
 
+## Kirjan lisääminen toivelistalle
+
+Tämä toimii hyvin samalla tavalla kuin normaali kirjan lisääminen, metodien nimet ovat vain hieman erilaiset, niissä ei lisätä arvosanaa, ja annetaan tunniste, kuuluuko se toivelistaan vai luettuihin kirjoihin.
+
