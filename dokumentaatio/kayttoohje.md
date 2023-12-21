@@ -47,7 +47,7 @@ Kun etusivulla on painettu "Selaa login kirjoja"- painiketta, aukeaa kirjojen se
 Aluksi selaussivulle on listattu kaikki login kirjat. Niitä voi kuitenkin filtteröidä listauksen yläpuolella olevilla alasvetovalikoilla.
 Kirjoja voi selata kirjoittajan tai arvosanojen perusteella.
 Tekstikentän alapuolella on jälleen "Takaisin"- painike, jolla voidaan siirtyä etusivulle.
-Mikäli on tarve poistaa jokin tietty kirja listalta, voidaan listauksen alla olevaan tekstikenttään kirjoittaa poistettavan kirjan nimi, ja painaa vielä "Poista"- painiketta.
+Mikäli on tarve poistaa jokin tietty kirja listalta, voidaan listauksen alla olevaan tekstikenttään kirjoittaa poistettavan kirjan ID (key), ja painaa vielä "Poista"- painiketta.
 
 ## Toivelistan käyttö
 
@@ -55,4 +55,4 @@ Kun etusivulla on painettu "Toivekirjat"- painiketta, aukeaa toivekirjanäkymä:
 
 ![](./kuvat/toivelista.png)
 
-Toivelistanäkymässä on listattuna aiemmin lisätyt toivekirjat. Näkymässä pääsee myös poistamaan ja lisäämään kirjoja toivelistalle. Näkymästä pääsee takaisin etusivulle painamalla "Takaisin"- painiketta.
+Toivelistanäkymässä on listattuna aiemmin lisätyt toivekirjat. Näkymässä pääsee myös poistamaan ja lisäämään kirjoja toivelistalle (samaan tapaan kuin normaalin kirjan). Näkymästä pääsee takaisin etusivulle painamalla "Takaisin"- painiketta.
